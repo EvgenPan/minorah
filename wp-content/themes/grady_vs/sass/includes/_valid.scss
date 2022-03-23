@@ -1,0 +1,270 @@
+.section_join{
+  padding-top: 50px;
+  padding-bottom: 35px;
+  @include _media-small-down(){
+    padding-top: 35px;
+    padding-bottom: 30px;
+  }
+  @include _media-xs-down() {
+    padding-bottom: 0;
+  }
+    .row_form {
+    padding-top: 60px;
+    text-align: center;
+    @include _media-small-down(){
+      padding-top: 15px;
+
+    }
+    .gform_wrapper .gfield_required{
+      display: none;
+    }
+    #gform_1 #gform_fields_1 li{
+      max-width: 100%!important;
+    }
+
+    #gform_1{
+      max-width: 500px!important;
+      margin:auto;
+      #input_1_1_3_container label{
+        display: none;
+      }
+      #input_1_2_6_container label{
+        display: none;
+      }
+input{
+  border: 1px solid $gv_gold!important;
+  height: 50px;
+  font-weight: 500;
+  padding-left: 13px;
+  @include _media-small-down(){
+    height: 40px;
+  }
+  &::placeholder{
+    font-size: 18px;
+    color:#747474;
+    font-weight: 500;
+    //padding-left: 15px;
+    @include _media-small-down(){
+      font-size: 16px;
+    }
+    @include _media-xs-down(){
+      font-size: 14px;
+    }
+  }
+}
+      select{
+        border: 1px solid $gv_gold!important;
+        height: 50px;
+        color: #424242;
+        font-size: 18px;
+        font-weight: 500;
+        padding-left: 9px;
+background-color: $white;
+        @include _media-small-down(){
+          font-size: 16px;
+          height: 40px;
+        }
+        @include _media-xs-down(){
+          font-size: 14px;
+
+        }
+      }
+      #input_1_8{
+        border: unset!important;
+        height: auto!important;
+      }
+      #input_1_9{
+        height: 30px!important;
+      }
+      label{
+        font-weight: 500;
+      }
+#input_1_4 {
+    color:#747474;
+    font-weight: 500;
+    padding-left: 9px;
+  }
+#field_1_11, #field_1_7, #field_1_8, #field_1_9 {
+  margin-top: 30px;
+  @include _media-small-down(){
+    margin-top: 15px;
+  }
+}
+      .gfield_checkbox li label{
+        font-size: 15px;
+      }
+      ul.gform_fields li.gfield.gfield_error+li.gfield.gfield_error{
+        margin-top: 10px!important;
+      }
+
+
+    }
+    #field_1_1 label, #field_1_2 label, #field_1_4 label, #field_1_5 label, #field_1_6 label{
+      display: none!important;
+    }
+    .gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium{
+      width: 100%;
+    }
+    .gform_wrapper ul.gform_fields li.gfield{
+      padding-right: 0;
+    }
+    #input_1_9{
+      display: flex;
+      align-items: center;
+      .gchoice_1_9_1{
+
+        margin-right: 80px;
+      }
+      li{
+        display: flex;
+        align-items: center;
+        input{
+          margin-right: 5px;
+        }
+      }
+
+    }
+    .gform_wrapper.gf_browser_chrome .gfield_checkbox li input, .gform_wrapper.gf_browser_chrome .gfield_checkbox li input[type=checkbox]{
+      margin-top: 0;
+    }
+    #gform_submit_button_1{
+      width: 100%;
+
+      background-color:$gv_gold!important;
+      border: unset!important;
+      transition: all 0.3s ease ;
+      color: $white;
+      font-weight: 600;
+      font-size: 18px;
+      @include _media-small-down(){
+        font-size: 16px;
+      }
+      &:hover{
+        background-color:$gv_mid_gold!important;
+      }
+    }
+    .gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=image]):not([type=file]){
+      line-height: 1;
+    }
+      #gform_confirmation_message_1{
+        padding-bottom: 60px;
+        font-weight: 500;
+
+        @include _media-small-down(){
+          padding-bottom: 30px;
+        }
+      }
+
+  }
+
+}
+.section_contact_us{
+  .row_form{
+    #gform_2{
+      #input_2_1_3_container label{
+        display: none;
+      }
+
+      input{
+        border: 1px solid $gv_gold!important;
+        height: 50px;
+        width: 100%;
+        font-weight: 500;
+        padding-left: 15px;
+        @include _media-small-down(){
+          height: 40px;
+        }
+        &::placeholder{
+          font-size: 18px;
+          color:#747474;
+          font-weight: 500;
+
+          @include _media-small-down(){
+            font-size: 16px;
+          }
+          @include _media-xs-down(){
+            font-size: 14px;
+          }
+        }
+      }
+      textarea{
+        border: 1px solid $gv_gold!important;
+
+        font-weight: 500;
+        padding-left: 12px;
+        &::placeholder{
+          font-size: 18px;
+          color:#747474;
+          @include _media-small-down(){
+            font-size: 16px;
+            height: 40px;
+          }
+          @include _media-xs-down(){
+            font-size: 14px;
+          }
+        }
+        @include _media-small-down(){
+          font-size: 16px;
+          height: 40px;
+        }
+        @include _media-xs-down(){
+          font-size: 14px;
+
+        }
+      }
+      #input_1_8{
+        border: unset!important;
+        height: auto!important;
+      }
+      #input_1_9{
+        height: 30px!important;
+      }
+      label{
+        font-weight: 500;
+      }
+      #input_1_4 {
+        color:#747474;
+        font-weight: 500;
+        padding-left: 15px;
+      }
+      ul.gform_fields li.gfield.gfield_error+li.gfield.gfield_error{
+        margin-top: 10px!important;
+      }
+      #gform_submit_button_2{
+        background-color:$gv_gold!important;
+        border: unset!important;
+        transition: all 0.3s ease ;
+        color: $white;
+        font-weight: 600;
+        width: 120px;
+        height: 45px;
+        padding-left: 3px;
+        padding-right: 3px;
+        @include _media-md-down(){
+          width: 100%;
+        }
+        &:hover{
+          background-color:$gv_mid_gold!important;
+        }
+      }
+    }
+    .gform_wrapper .gfield_required{
+      display: none;
+    }
+    #field_2_1 label, #field_2_2 label, #field_2_4 label, #field_2_5 label{
+      display: none!important;
+    }
+    h2{
+      color: $gv_red;
+    }
+    .gform_wrapper ul.gform_fields li.gfield{
+      padding-right: 0;
+    }
+    .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half){
+      max-width: 100% !important;
+    }
+  }
+}
+.gform_confirmation_message_2{
+  padding-top: 15px;
+}

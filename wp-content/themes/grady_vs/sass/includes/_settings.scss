@@ -1,0 +1,105 @@
+/* color */
+$brand-primary: #1B2725 !default;
+$brand-hover: #FF5A25 !default;
+$brand-input:#5D6066 !default;
+$grey100: #121212 !default;
+$grey80: #121212 !default;
+$white: #FFFFFF !default;
+$black: #424242 !default;
+$black1:#263238 !default;
+$bg_grey:#F7F7F7 !default;
+$grey60: #B9BCBC !default;
+$grey70: #414142 !default;
+$grey50: #2E294E !default;
+$grey40: #7C7C7C !default;
+$grey20: #ACBDBA !default;
+$grey10: #CDDDDD !default;
+$grey5: #FCFCFC !default;
+$bg_grd: linear-gradient(180deg, #F43B00 0%, #FF5A25 100%) !default;
+$red:  #FF0000 !default;
+$grey:  #606867 !default;
+
+
+
+/*New color*/
+
+$gv_red: #da291c !default;
+$gv_maroon: #921B1D !default;
+$gv_gold: #d9953b !default;
+$gv_mid_gold: #e6a962 !default;
+$gv_lt_gold: #f4d4b2 !default;
+$gv_grey: #d3dbe0 !default;
+$gv_orange: #f04c23 !default;
+/*end*/
+
+
+
+/* font-size */
+
+/* h1 */
+$h1: 56px !default;
+$h1-big: 56px !default;
+$h1-lg: 56px !default;
+$h1-md: 48px !default;
+$h1-sm: 36px !default;
+$h1-xs: 36px !default;
+
+
+/* h2 */
+$h2: 60px !default;
+$h2-big: 60px !default;
+$h2-lg: 56px !default;
+$h2-md: 48px !default;
+$h2-sm: 32px !default;
+$h2-xs: 32px !default;
+/* h3 */
+$h3: 36px !default;
+$h3-big: 36px !default;
+$h3-lg: 36px !default;
+$h3-md: 32px !default;
+$h3-sm: 28px !default;
+$h3-xs: 28px !default;
+/* h3.5 */
+$h3-5: 44px !default;
+$h3-5big: 44px !default;
+$h3-5lg: 36px !default;
+$h3-5md: 32px !default;
+$h3-5sm: 28px !default;
+$h3-5xs: 28px !default;
+/* h4 */
+$h4: 22px !default;
+$h4-big: 22px !default;
+$h4-lg: 22px !default;
+$h4-md: 20px !default;
+$h4-sm: 20px !default;
+$h4-xs: 20px !default;
+/* h5 */
+$h5: 20px !default;
+$h5-big: 20px !default;
+$h5-lg: 20px !default;
+$h5-md: 18px !default;
+$h5-sm: 18px !default;
+$h5-xs: 18px !default;
+/* h6 */
+$h6: 18px !default;
+$h6-big: 18px !default;
+$h6-lg: 18px !default;
+$h6-md: 16px !default;
+$h6-sm: 16px !default;
+$h6-xs: 16px !default;
+/* base */
+$base: 16px !default;
+$base-lg: 16px !default;
+$base-md: 16px !default;
+$base-sm: 14px !default;
+/* font-family */
+$family-base: 'Montserrat', sans-serif!default;
+$family-title:  'Hackney Vector'!default;
+
+/* breakpoints */
+$screen-big-min: 1400px !default;
+$screen-lg-min: 1200px !default;
+$screen-md-min: 992px !default;
+$screen-sm-min: 768px !default;
+$screen-xs-min: 576px !default;
+$screen-xss-min: 500px !default;

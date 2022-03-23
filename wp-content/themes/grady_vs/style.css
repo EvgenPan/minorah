@@ -1,0 +1,63 @@
+/*
+Theme Name: Grady Vs
+Version: 1.0.0
+Author: paspartoo.com Web Agency
+*/
+
+@import "css/style.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700&display=swap');
+@font-face {
+    font-family: 'Font Awesome 5 Light';
+    src: url('fonts/fa-light-300.eot');
+    src: url('fonts/fa-light-300.eot?#iefix') format('embedded-opentype'),
+    url('fonts/fa-light-300.woff') format('woff'),
+    url('fonts/fa-light-300.woff2') format('woff2'),
+    url('fonts/fa-light-300.svg') format("svg"),
+    url('fonts/fa-light-300.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Hackney Vector';
+    src: url('fonts/HackneyPersonalUseOnly.eot');
+    src: url('fonts/HackneyPersonalUseOnly.eot?#iefix') format('embedded-opentype'),
+    url('fonts/HackneyPersonalUseOnly.woff2') format('woff2'),
+    url('fonts/HackneyPersonalUseOnly.woff') format('woff'),
+    url('fonts/HackneyPersonalUseOnly.ttf') format('truetype'),
+    url('fonts/HackneyPersonalUseOnly.svg#HackneyPersonalUseOnly') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Prequel Demo';
+    src: url('fonts/PrequelDemo-Regular.eot');
+    src: url('fonts/PrequelDemo-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/PrequelDemo-Regular.woff2') format('woff2'),
+    url('fonts/PrequelDemo-Regular.woff') format('woff'),
+    url('fonts/PrequelDemo-Regular.ttf') format('truetype'),
+    url('fonts/PrequelDemo-Regular.svg#PrequelDemo-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.fal {font-family: "Font Awesome 5 Light";}
+
+
+@font-face {
+    font-family: 'South Coast';
+    src: url('fonts/SouthCoast.eot');
+    src: url('fonts/SouthCoast.eot?#iefix') format('embedded-opentype'),
+    url('fonts/SouthCoast.woff2') format('woff2'),
+    url('fonts/SouthCoast.woff') format('woff'),
+    url('fonts/SouthCoast.ttf') format('truetype'),
+    url('fonts/SouthCoast.svg#SouthCoast') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

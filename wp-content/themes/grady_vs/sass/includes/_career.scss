@@ -1,0 +1,23 @@
+.section_join{
+  .row_join{
+    text-align: center;
+    .title_main_join{
+      display: inline-block;
+      text-align: left;
+      .subtitle_main_join{
+        color: $gv_gold;
+        margin-bottom: -5px;
+        font-size: 44px;
+        font-weight: 400;
+        font-family: 'South Coast';
+        -webkit-transform: rotate(-8deg);
+        margin-left: -10px;
+        display: inline-block;
+      }
+      h2{
+        margin-top: -30px;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,123 @@
+.slick-slider{position: relative;width: 100%;max-width: 100%;display: block;box-sizing: border-box;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;-webkit-touch-callout: none;-khtml-user-select: none;-ms-touch-action: pan-y;touch-action: pan-y;    -webkit-tap-highlight-color: transparent;}
+.slick-list{position: relative;display: block;overflow: hidden;margin: 0;padding: 0;}
+.slick-list:focus{outline: none;}
+.slick-list.dragging{cursor: pointer;cursor: hand;}
+.slick-slider .slick-track,.slick-slider .slick-list{-webkit-transform: translate3d(0, 0, 0);-moz-transform: translate3d(0, 0, 0);-ms-transform: translate3d(0, 0, 0);-o-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);}
+.slick-track{position: relative;top: 0;left: 0;display: block;margin-left: auto;margin-right: auto;}
+.slick-track:before,.slick-track:after{display: table;content: '';}
+.slick-track:after{clear: both;}
+.slick-loading .slick-track{visibility: hidden;}
+.slick-slide{display: none;float: left;height: 100%;min-height: 1px;}
+[dir='rtl'] .slick-slide{float: right;}
+.slick-slide.slick-loading img{display: none;}
+.slick-slide.dragging img{pointer-events: none;}
+.slick-initialized .slick-slide{display: block;}
+.slick-loading .slick-slide{visibility: hidden;}
+.slick-vertical .slick-slide{display: block;height: auto;border: 1px solid transparent;}
+.slick-arrow, .slick-dots button {
+  background: transparent;
+  padding: 0 ;
+  margin: 0;
+  line-height: unset;
+  height: auto;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 02px;
+}
+
+
+.slick-arrow {
+  cursor: pointer;
+  position: absolute;
+  display: flex !important;
+  align-items: center;
+  top: 50%;
+  z-index: 99;
+  border: none;
+  border-radius: 50px;
+
+  box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.1);
+  background-color: $white;
+  width: 52px;
+height: 52px;
+font-size: 0;
+  transition:all .3s ease-in-out;
+  @include _media-xs-down() {
+    top: 50%;
+  }
+  @include _media-xss-down() {
+  top: 50%;
+  }
+    &:hover{
+      background-color: $brand-hover;
+  }
+
+
+
+  @include _media-small-down() {
+    //width: 20px;
+    }
+
+}
+.next{
+left: -50px;
+  color: $brand-primary;
+  @include _media-md-down(){
+    left: -25px;
+  }
+  @include _media-small-down() {
+  left: 0;
+    top: 40%;
+  }
+  @include _media-xs-down() {
+  right: auto;
+    left: 0;
+  }
+    &:before{
+  font-family:"Font Awesome 5 Light";
+
+content: "\f053";
+font-size: 23px;
+  font-weight: 300;
+  margin: auto;
+  //position: absolute;
+ left: 0;
+  top: 0;
+
+  z-index: 99;
+}
+  &:hover{
+    color: #fff;
+  }
+}
+.prev {
+  right: -50px;
+  color: $brand-primary;
+  @include _media-md-down(){
+    right: -25px;
+  }
+  @include _media-small-down() {
+    right: 0;
+    top: 40%;
+  }
+  @include _media-xs-down() {
+    right: 0
+  }
+  &:before {
+    font-family: "Font Awesome 5 Light";
+
+    content: "\f054";
+    font-size: 23px;
+    font-weight: 300;
+    margin: auto;
+    //position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 99;
+
+  }
+  &:hover{
+    color: #fff;
+  }
+}
+

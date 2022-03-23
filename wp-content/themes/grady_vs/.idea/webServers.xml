@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cfb3aecf-bae5-49ca-bb3a-c796046dfb28" name="grady" url="http://wedid.website">
+        <fileTransfer rootFolder="/web/gradyvs.wedid.website/public_html" host="wedid.website" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
